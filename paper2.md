@@ -10,7 +10,7 @@ We coded themes, classified domains, and cataloged hardware and software technol
 
 Virtual Reality, Augmented Reality, Mixed Reality, XR Research, Thematic Analysis, Hardware Trends, Software Platforms, Research Domains, Human-Computer Interaction, Immersive Training, Cybersickness, Presence, Usability, Rehabilitation.
 
-1. Introduction
+## 1. Introduction
 
 Extended reality (XR) research has grown substantially over the past five years. Hardware and software choices have become more abundant with higher and lower cost options becoming available in 2024 (see Apple Vision Pro). Researchers are adopting new hardware and software and using it to address new research directions every year. To understand these changes in 2024 and compare them to 2024, studies from journals detailed below were mapped studies systematically through extensive cataloged of technologies while examining the themes that were present in the research.
 
@@ -18,15 +18,46 @@ This exploration and mapping reviewed 305 peer-reviewed articles published in th
 
 Here four questions are used to guide the review. Which thematic lines of inquiry dominate today's XR scholarship? Where do academic disciplines and applied fields contribute most to XR advances? We also mapped which headsets—Oculus Rift, HTC Vive, Quest—dominate the conversation, while asking what key research themes, domain interests, and technology selections combine to shape XR research? This research also explores the continued gaps in research noting how accessibility studies still fall behind. With all this in mind, this research can guide both immediate projects and longer-term strategies for XR research.
 
-Methods The study analyzed a pre-compiled dataset containing 305 individual studies (Table 1). This work covers the Extended Reality (XR) field and was curated from three academic journals: Presence: Teleoperators and Virtual Environments, Frontiers in Virtual Reality, and Virtual Reality. The data, current as of June 3 2025, capture a survey of recent publications.
+## 2. Methods
+
+Methods The study analyzed a pre-compiled dataset containing 305 individual studies (Table&nbsp;1). This work covers the Extended Reality (XR) field and was curated from three academic journals: Presence: Teleoperators and Virtual Environments, Frontiers in Virtual Reality, and Virtual Reality. The data, current as of June&nbsp;3&nbsp;2025, capture a survey of recent publications.
+
+**Table&nbsp;1. Dataset Overview**
+
+| Journal                                            | Number of studies |
+|----------------------------------------------------|-------------------|
+| Presence: Teleoperators and Virtual Environments   | 100               |
+| Frontiers in Virtual Reality                       | 105               |
+| Virtual Reality                                    | 100               |
+| **Total**                                          | **305**           |
 
 To build the dataset, we ran Paper-QA with custom Python scripts that queried the themes, hardware, software, and associated technologies mentioned in each study (Python details included in extra doc). The examination relied on three interconnected dimensions.
 
-2.1 Identifying Research Themes We assigned each of the 305 studies (Table 1) a primary research theme. Each paper fell into one of 12 predefined areas mapping major lines of inquiry within XR research: Immersive Training, Presence Immersion, Cognitive Psychology, Educational Technology, Sensory Feedback, Motion Perception, Performance Measurement, Human Computer Interaction, Healthcare Applications, Social Virtual Environments, Cybersickness Comfort, and Accessibility Inclusion (Table 2).
+### 2.1 Identifying Research Themes
+We assigned each of the 305 studies (Table 1) a primary research theme. Each paper fell into one of 12 predefined areas mapping major lines of inquiry within XR research: Immersive Training, Presence Immersion, Cognitive Psychology, Educational Technology, Sensory Feedback, Motion Perception, Performance Measurement, Human Computer Interaction, Healthcare Applications, Social Virtual Environments, Cybersickness Comfort, and Accessibility Inclusion (Table 2).
 
 After this categorization, we scored each study's alignment with its theme using a relevance scale from 0 to 4. The highest observed value was 4.20. We then calculated an average relevance score for every theme, combining that qualitative depth indicator with the quantitative study count. Themes that pair high counts with high relevance mark areas of sustained, influential research. Themes with fewer papers yet high relevance scores highlight critical, challenging, or emerging questions.
 
 The count, the relevance metric, and the thematic structure give a detailed map of current XR scholarship and point to both established strengths and promising frontiers.
+
+Accessibility Inclusion (Table&nbsp;2).
+
+**Table&nbsp;2. Primary Research Themes**
+
+| Theme                        | Studies (n) | % of Total | Avg. Relevance |
+|------------------------------|-------------|------------|----------------|
+| Immersive Training           | 48          | 15.7       | 3.9            |
+| Presence & Immersion         | 48          | 15.7       | 4.1            |
+| Cognitive Psychology         | 46          | 15.1       | 3.8            |
+| Educational Technology       | 39          | 12.8       | 3.7            |
+| Sensory Feedback             | 39          | 12.8       | 3.6            |
+| Motion Perception            | 36          | 11.8       | 3.5            |
+| Performance Measurement      | 35          | 11.5       | 3.4            |
+| Human-Computer Interaction   | 35          | 11.5       | 3.6            |
+| Healthcare Applications      | 28          | 9.2        | 3.9            |
+| Social Virtual Environments  | 22          | 7.2        | 3.5            |
+| Cybersickness & Comfort      | 10          | 3.3        | 3.9            |
+| Accessibility & Inclusion    | 5           | 1.6        | 4.0            |
 
 2.2. Domain Classification We placed every study within one of nine broad research domains to gauge the wider academic and practical settings of XR scholarship: General, Simulation, Education, Healthcare, Engineering, Psychology, Social, Visualization, and Gaming. These domains set a common frame of reference.
 
@@ -48,7 +79,9 @@ Important limitation: The catalog did not list separate references to graphics c
 
 Looking across all three analytical dimensions, the study offers a layered picture of the XR landscape, capturing broad trends and fine-grained technological choices. The examination draws directly from the dataset, so its findings remain objective.
 
-Results Our survey encompassed 305 studies published in these three journals through late 2024. This corpus reflects the evolution of Extended Reality (XR) research, revealing key topics, dominant research areas, and the technological foundations supporting current investigations.
+## 3. Results
+
+Our survey encompassed 305 studies published in these three journals through late 2024. This corpus reflects the evolution of Extended Reality (XR) research, revealing key topics, dominant research areas, and the technological foundations supporting current investigations.
 
 3.1. Overall Research Volume We analyzed every paper available from the three journals, delivering 100% coverage of their XR output with 305 studies. This breadth confirms the growing academic interest in virtual reality (VR), augmented reality (AR), and mixed reality (MR).
 
@@ -191,7 +224,8 @@ Social Dynamics and Collaborative Environments: The "Social Virtual Environments
 
 Underlying Infrastructure and Research Enablement: The consistent presence of Virtual Environment Systems across numerous themes and domains, alongside the specific adoption of Unity as a leading game engine, underscores their role as fundamental enablers of XR research. The universal presence of the Oculus Rift further cements its status as a widely accessible and dependable research instrument that has shaped a large portion of the published studies. The comprehensive suite of Research Tools & Measurement Systems, from Evaluation Systems to Data Analysis Systems and Measurement Sensors, highlights the increasing sophistication and rigor in how XR experiences are designed, implemented, and scientifically evaluated. The presence of specific AR devices like Microsoft HoloLens indicates a targeted research focus on the unique capabilities of augmented reality, often integrated with Application Platforms for deployment.
 
-Discussion 
+## 4. Discussion
+
 We examined 305 XR research articles from Presence, Frontiers in Virtual Reality, and Virtual Reality, revealing a field experiencing robust growth and increasing sophistication through 2024. The complete coverage of these journals underscores escalating academic and industrial interest in Extended Reality, marking its evolution from specialized research tool to established methodology across healthcare, education, and training sectors.
 
 4.1. The Dual Focus: Applied Utility vs. Foundational Understanding 
@@ -220,12 +254,15 @@ Despite the field's vibrancy and breadth, we uncovered a critical gap: Accessibi
 
 An adjacent but slightly larger frontier involves Social Virtual Environments and the broader Social domain. Although still smaller than core technical themes, this category's expanding presence signals gathering momentum. As social VR platforms like VRChat and Horizon Worlds report millions of active users, researchers investigate specific social dynamics including avatar identity, virtual harassment, and cross-cultural communication patterns.: virtual identity formation, privacy management, moderation, and the interplay of positive outcomes (community building, empathy induction) with negative ones (harassment, addiction). Addressing these questions demands tighter integration of sociological and psychological perspectives with technical development.
 
-Data and Scope Limitations
+## 5. Limitations
+
 Our findings sit within several boundaries that merit attention. First, the examination relies on a pre-compiled dataset; hence, the quality and categorization of the original material, including the assigned "relevance" scores, directly influence every result. Those scores stem from the original methodology and inevitably carry a degree of subjectivity. Second, coverage is limited to three specific journals. While each journal is highly influential and representative of core XR research, the trio does not capture the full breadth of global scholarship published in conferences, books, and other venues such as computer graphics, human-computer interaction, or specialized medical journals that also host XR studies. Third, the "Analysis Date: June 3, 2025" labels a prospective or simulated compilation, so the dataset represents a hypothetical future snapshot extrapolated from real-world trends leading up to that point. Its value rests on the accuracy of the underlying data-generation process and associated predictive models. Finally, the updated catalog excludes explicit details about graphics cards, generic controllers, and tracking systems. This absence limits the granularity achievable in those technological sub-categories.
 
 Future research could counter these constraints through a meta-examination that embraces a wider range of publication types and employs longitudinal data tracking. Such an approach would ground insights in a larger evidence base, illuminate temporal shifts, and offer a more nuanced view of how accessibility, social interaction, and hardware evolution intertwine within XR's fast-moving landscape..
 
-Trends 2023-2024 We compared our findings with our previous 2023 examination, revealing a substantial diversification in the primary focus of XR research. While the 2023 report identified a dominant concentration in healthcare and therapy, which accounted for a commanding 44% of the literature, the current 2024-2025 data shows a more balanced and mature research landscape. The field has shifted towards a triad of leading themes: Immersive Training, Presence and Immersion, and Cognitive Psychology, each commanding roughly 15% of studies. This suggests that while clinical applications remain vital, the research community has broadened its efforts, reinvesting in foundational human-centric questions about immersion and cognition, alongside the highly practical and expanding domain of skill-based training. The technological infrastructure supporting this research has also evolved, moving from a fragmented market toward a recognized historical standard now giving way to new specialized tools.
+## 6. Trends 2023–2024
+
+We compared our findings with our previous 2023 examination, revealing a substantial diversification in the primary focus of XR research. While the 2023 report identified a dominant concentration in healthcare and therapy, which accounted for a commanding 44% of the literature, the current 2024-2025 data shows a more balanced and mature research landscape. The field has shifted towards a triad of leading themes: Immersive Training, Presence and Immersion, and Cognitive Psychology, each commanding roughly 15% of studies. This suggests that while clinical applications remain vital, the research community has broadened its efforts, reinvesting in foundational human-centric questions about immersion and cognition, alongside the highly practical and expanding domain of skill-based training. The technological infrastructure supporting this research has also evolved, moving from a fragmented market toward a recognized historical standard now giving way to new specialized tools.
 
 Our 2023 examination highlighted a dynamic ecosystem where the Meta Quest 2 was the versatile consumer favorite and the Microsoft HoloLens 2 was the standard for applied AR. In contrast, the 2024-2025 data underscores the Oculus Rift's long-standing, foundational role as a universal research baseline. This indicates that while the Rift established a common ground for years of study, the field is now leveraging a wider array of hardware, from untethered devices like the Meta Quest for accessibility to high-precision systems like the HTC Vive for demanding tracking, reflecting a move toward selecting the right tool for a specific research question rather than relying on a single default.
 
@@ -233,7 +270,8 @@ Finally, while the fundamental challenges of user experience persist, the emphas
 
 Most importantly, the current examination reveals a critical and previously under-emphasized gap in accessibility and inclusion. This emerging focus suggests the field is moving beyond questions of pure technological capability and toward the vital work of ensuring XR experiences are not only comfortable and immersive but also equitable and accessible to all users. As these systems are adopted in K-12 education, clinical rehabilitation, and workplace training, they must accommodate users with visual, motor, and cognitive disabilities to prevent exclusion from these applications. Dedicated inquiry therefore becomes paramount if the community hopes to foster equitable access and prevent new digital divides. Future work should focus on designing XR experiences for diverse populations from the outset rather than retrofitting existing solutions.
 
-Conclusion 
+## 7. Conclusion
+
 We examined 305 Extended Reality (XR) research articles in detail, supplying a thorough, data-driven perspective of the field's current state and the questions scholars now pursue. As of mid-2025, XR work shows a lively interplay between the hunt for practical, applied solutions, especially in immersive training and healthcare, and an enduring effort to understand the human factors that shape immersive experience. These factors include presence, cognition, and sensory perception. This two-pronged agenda matters for both immediate impact and long-term scientific growth.
 
 We found that the technological ecosystem surrounding the research rests on one unmistakable pillar: every reviewed study employed the Oculus Rift virtual-reality headset. This highlights its pivotal influence on the landscape. Researchers pair the device with widely adopted Virtual Environment Systems and with leading game engines such as Unity, which supply the software backbone for XR content creation. At the same time, they increasingly rely on specialized Research Tools and Measurement Systems, evidence of a strong commitment to rigorous inquiry.
@@ -242,7 +280,7 @@ Although investigators have refined user experience, produced compelling content
 
 Our insights act as a roadmap for the XR community. For researchers, they reveal mature avenues ready for deeper investigation alongside nascent domains ripe for pioneering study. For developers, they guide strategic decisions about hardware and software platforms while underscoring the need for user-centric design to overcome persistent challenges. For industry stakeholders, the data spotlight XR's immense potential across multiple sectors and pinpoint key opportunities for investment and innovation. As XR continues its steady march toward mainstream acceptance, a collaborative, interdisciplinary research effort that balances technological advances with human-centric concerns will unlock the technology's full, transformative potential for global society.
 
-## References
+## 8. References
 
 > All references are formatted according to APA 7 guidelines. Placeholder entries are provided below; full bibliographic details should be completed during copy-editing.
 
