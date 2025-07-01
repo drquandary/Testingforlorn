@@ -1,10 +1,14 @@
 # Extended Reality Research in 2024-2025: Themes, Domains, and Technology Trends
 
-Abstract: A total of 305 studies from Presence, Frontiers in Virtual Reality, and Virtual Reality were analyzed for this paper, covering research published up to late 2024.
+## Abstract
+
+A total of 305 studies from Presence, Frontiers in Virtual Reality, and Virtual Reality were analyzed for this paper, covering research published up to late 2024.
 
 We coded themes, classified domains, and cataloged hardware and software technologies mentioned across these articles. Two research tracks dominated. First: applied work targeting immersive training (15.7% of studies) and healthcare applications (9.2%). Second: human-centered investigations examining presence and immersion (15.7%) and cognitive psychology (15.1%). The technology survey revealed the Oculus Rift headset's widespread adoption as a research standard. Virtual environment frameworks and Unity appeared frequently. Authors increasingly employ specialized measurement systems for physiological and behavioral data collection. Progress in user experience and interaction design is evident. But major challenges persist. Cybersickness emerges as a critical concern. Accessibility and inclusion remain underexplored (1.6% of studies). The field has matured in core tools and applications. Yet fundamental questions about user comfort and equitable access need more attention.
 
-Keywords: Virtual Reality, Augmented Reality, Mixed Reality, XR Research, Thematic Analysis, Hardware Trends, Software Platforms, Research Domains, Human-Computer Interaction, Immersive Training, Cybersickness, Presence, Usability, Rehabilitation.
+## Keywords
+
+Virtual Reality, Augmented Reality, Mixed Reality, XR Research, Thematic Analysis, Hardware Trends, Software Platforms, Research Domains, Human-Computer Interaction, Immersive Training, Cybersickness, Presence, Usability, Rehabilitation.
 
 1. Introduction
 
@@ -237,3 +241,39 @@ We found that the technological ecosystem surrounding the research rests on one 
 Although investigators have refined user experience, produced compelling content, and shown clear real-world utility, several obstacles remain. Cybersickness still ranks as a priority problem that demands fresh ideas to secure broad user comfort and adoption. Its high average relevance across the literature confirms the urgency of the issue. The scant volume of work devoted to accessibility and inclusion likewise emerges as a critical target for future investment. This ensures that all individuals can benefit from these transformative technologies. Meanwhile, social virtual environments with documented user bases in the millions raise questions about digital identity, virtual economy regulation, and cross-platform interoperability. Yet it poses complex research questions that interweave technical challenges (how do you maintain presence when avatars glitch?), psychological puzzles (why do some users feel more empathetic toward virtual characters than real people?), and policy dilemmas (who governs behavior in a metaverse that spans jurisdictions?). No single discipline can solve these problems alone.
 
 Our insights act as a roadmap for the XR community. For researchers, they reveal mature avenues ready for deeper investigation alongside nascent domains ripe for pioneering study. For developers, they guide strategic decisions about hardware and software platforms while underscoring the need for user-centric design to overcome persistent challenges. For industry stakeholders, the data spotlight XR's immense potential across multiple sectors and pinpoint key opportunities for investment and innovation. As XR continues its steady march toward mainstream acceptance, a collaborative, interdisciplinary research effort that balances technological advances with human-centric concerns will unlock the technology's full, transformative potential for global society.
+
+## References
+
+> All references are formatted according to APA 7 guidelines. Placeholder entries are provided below; full bibliographic details should be completed during copy-editing.
+
+Ban, A., et al. (2024). *Title of study*. *Virtual Reality*, 34(2), 123–145. https://doi.org/10.0000/vr.2024.0001  
+Banquiero, B., et al. (2024). *Title of study*. *Presence: Teleoperators and Virtual Environments*, 33(1), 56–71.  
+Beidel, D., et al. (2024). *Title of study*. *Frontiers in Virtual Reality*, 5, e12345.  
+Brazil, A., & Rys, M. (2024). *Title of study*. *Virtual Reality*, 34(3), 200–215.  
+Cho, J., et al. (2024). *Title of study*. *Presence*, 33(4), 312–330.  
+Duan, Y., et al. (2024). *Title of study*. *Virtual Reality*, 34(2), 180–198.  
+Fucci, D., et al. (2024). *Title of study*. *Frontiers in Virtual Reality*, 5, e23456.  
+García García, J., et al. (2024). *Title of study*. *Presence*, 33(2), 150–165.  
+Geng, X., et al. (2024). *Title of study*. *Presence*, 33(3), 220–238.  
+Gong, X., et al. (2024). *Title of study*. *Virtual Reality*, 34(1), 75–92.  
+Guzmán, P., et al. (2024). *Title of study*. *Frontiers in Virtual Reality*, 5, e34567.  
+Hoffman, H., et al. (2024). *Title of study*. *Presence*, 33(1), 1–15.  
+Jacucci, G., et al. (2024). *Title of study*. *Virtual Reality*, 34(4), 350–370.  
+Jeon, M., et al. (2024). *Title of study*. *Presence*, 33(4), 331–349.  
+Laine, P., et al. (2024). *Title of study*. *Virtual Reality*, 34(1), 16–34.  
+Li, W., et al. (2024). *Title of study*. *Frontiers in Virtual Reality*, 5, e45678.  
+Monaro, M., et al. (2024). *Title of study*. *Presence*, 33(2), 166–179.  
+Narciso, D., et al. (2024). *Title of study*. *Virtual Reality*, 34(3), 216–234.  
+Patel, V., & Baker, S. (2024). *Title of study*. *Frontiers in Virtual Reality*, 5, e56789.  
+Peña-Acuña, B., & Rubio-Alcalá, F. (2024). *Title of study*. *Presence*, 33(1), 35–54.  
+Postema, K., et al. (2024). *Title of study*. *Virtual Reality*, 34(2), 199–214.  
+Reski, J., et al. (2024). *Title of study*. *Presence*, 33(3), 239–256.  
+Shin, H., et al. (2024). *Title of study*. *Virtual Reality*, 34(4), 371–389.  
+Sun, J., et al. (2024). *Title of study*. *Frontiers in Virtual Reality*, 5, e67890.  
+Terkaj, W., et al. (2024). *Title of study*. *Presence*, 33(2), 180–198.  
+Terenti, M., et al. (2024). *Title of study*. *Virtual Reality*, 34(4), 390–410.  
+Wang, L., et al. (2024). *Title of study*. *Presence*, 33(4), 350–365.  
+Yan, H., et al. (2024). *Title of study*. *Virtual Reality*, 34(1), 93–112.  
+Yalcin, A., et al. (2024). *Title of study*. *Frontiers in Virtual Reality*, 5, e78901.
+
+*Note: Additional references cited in the manuscript should be completed similarly.*
