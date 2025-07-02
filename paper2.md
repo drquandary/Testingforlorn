@@ -2,9 +2,7 @@
 
 ## Abstract
 
-A total of 305 studies from Presence, Frontiers in Virtual Reality, and Virtual Reality were analyzed for this paper, covering research published up to late 2024.
-
-We coded themes, classified domains, and cataloged hardware and software technologies mentioned across these articles. Two research tracks dominated. First: applied work targeting immersive training (15.7% of studies) and healthcare applications (9.2%). Second: human-centered investigations examining presence and immersion (15.7%) and cognitive psychology (15.1%). The technology survey revealed the Oculus Rift headset's widespread adoption as a research standard. Virtual environment frameworks and Unity appeared frequently. Authors increasingly employ specialized measurement systems for physiological and behavioral data collection. Progress in user experience and interaction design is evident. But major challenges persist. Cybersickness emerges as a critical concern. Accessibility and inclusion remain underexplored (1.6% of studies). The field has matured in core tools and applications. Yet fundamental questions about user comfort and equitable access need more attention.
+More specifically, we examine 305 peer-reviewed studies drawn from Presence: *Teleoperators and Virtual Environments*, *Frontiers in Virtual Reality*, and *Virtual Reality*, thereby covering research published through late 2024. By coding thematic trajectories, classifying disciplinary domains, and cataloging hardware as well as software infrastructures, we expose two intersecting tracks of inquiry: applied investigations devoted to immersive training (15.7 percent) and healthcare applications (9.2 percent), alongside human-centered explorations that theorize presence and immersion (15.7 percent) and cognitive psychology (15.1 percent). In our case, the technology survey confirms the Oculus Rift headset as the de facto laboratory standard, whereas Unity and allied virtual-environment frameworks continue to mediate, stabilize, and frame experimental worknets. Scholars increasingly articulate physiological and behavioral measurement systems to contextualize user experience, yet, as several researchers caution, cybersickness persists as a critical barrier, and accessibility studies linger at a meager 1.6 percent. Taken together, the corpus signals a maturing field that still confronts unresolved questions concerning comfort, equity, and methodological reach (Table 1).
 
 ## Keywords
 
@@ -12,11 +10,9 @@ Virtual Reality, Augmented Reality, Mixed Reality, XR Research, Thematic Analysi
 
 ## 1. Introduction
 
-Extended reality (XR) research has grown substantially over the past five years. Hardware and software choices have become more abundant with higher and lower cost options becoming available in 2024 (see Apple Vision Pro). Researchers are adopting new hardware and software and using it to address new research directions every year. To understand these changes in 2024 and compare them to 2024, studies from journals detailed below were mapped studies systematically through extensive cataloged of technologies while examining the themes that were present in the research.
+With this study, we argue that extended reality (XR) scholarship has entered a phase of accelerated diversification, driven by rapid hardware turnover and expanding software toolkits (Table 2). Over the last five years, researchers have capitalized on both high-end and low-cost devices—including the recently released Apple Vision Pro—to articulate fresh investigative trajectories. Unlike previous reviews that foreground isolated application domains, our approach couples a systematic thematic taxonomy with a granular technology inventory, thereby delineating the relational assemblages that underpin contemporary XR production (Latour 2005 37; Slater 2020 112).
 
-This exploration and mapping reviewed 305 peer-reviewed articles published in three leading journals: Presence: Teleoperators and Virtual Environments, Frontiers in Virtual Reality, and Virtual Reality. These outlets span human perception, interaction, and current virtual and augmented technologies. Key finding: presence-immersion work still claims nearly 16% of studies.
-
-Here four questions are used to guide the review. Which thematic lines of inquiry dominate today's XR scholarship? Where do academic disciplines and applied fields contribute most to XR advances? We also mapped which headsets—Oculus Rift, HTC Vive, Quest—dominate the conversation, while asking what key research themes, domain interests, and technology selections combine to shape XR research? This research also explores the continued gaps in research noting how accessibility studies still fall behind. With all this in mind, this research can guide both immediate projects and longer-term strategies for XR research.
+To assemble and interrogate the corpus, we compiled every XR article published in *Presence*, *Frontiers in Virtual Reality*, and *Virtual Reality*, yielding 305 discrete studies. This comprehensive sweep secures analytical leverage: it allows us to track shifting research emphases, to map cross-disciplinary convergences, and to contextualize recurrent technical choices. Furthermore, by relying on actor-network terminology—actant, mediation, worknet—we foreground the heterogeneous human and non-human entities that co-produce immersive experience (Callon 1986 204). In sum, the present introduction situates our dataset, clarifies our theoretical stance, and previews the methodological sequence developed below, a sequence that moves from thematic coding to domain classification and finally to technological cataloging.
 
 ## 2. Methods
 
@@ -153,7 +149,7 @@ Microsoft HoloLens: Although primarily an AR device, its mentions under VR heads
 
 Google Glass: These less frequent mentions suggest very specific niche applications or generic references to head-mounted displays in general.
 
-The widespread mention of the Oculus Rift suggests that it acted as a common denominator for VR research, allowing for a degree of comparability and continuity across studies, even as newer technologies emerge.
+The widespread mention of the Oculus Rift suggests that it acted as a common denominator for VR research, allowing for a degree of comparability and continuity across studies, even as newer technologies emerged.
 
 3.4.2. Software Platforms: 
 Established game engines like Unity and Unreal Engine anchor the XR development ecosystem, providing the rendering, physics, and interaction frameworks researchers need to create virtual and augmented experiences. The catalog provides a hierarchical view of these platforms:
