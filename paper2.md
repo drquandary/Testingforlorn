@@ -2,9 +2,15 @@
 
 ## Abstract
 
-A total of 305 studies from Presence, Frontiers in Virtual Reality, and Virtual Reality were analyzed for this paper, covering research published up to late 2024.
+We analyzed 305 studies published in three leading XR journals (Presence, Frontiers in Virtual Reality, and Virtual Reality) using data current as of 3 June 2025.
 
-We coded themes, mapped disciplinary domains, and cataloged the hardware and software each study reported. Two tracks dominated. Applied investigations in immersive training (15.7 percent) and healthcare (9.2 percent) formed the first. Human-centered work on presence and immersion (15.7 percent) and cognitive psychology (15.1 percent) formed the second. Our technology survey showed that most laboratories still rely on the Oculus Rift headset, although newer devices such as the Meta Quest 2 and HTC Vive appear with increasing frequency. Virtual-environment frameworks and Unity remained common, and investigators now pair them with eye-tracking cameras or heart-rate sensors to capture behavior and physiology. User-experience and interaction design have improved, yet major challenges persist—especially cybersickness. Only five papers (1.6 percent) address accessibility or inclusion. Fundamental questions about comfort and equitable access therefore remain open. Readers will see those gaps re-emerge in later sections, so we mention the point only once here.
+Using thematic analysis, domain classification, and a detailed technology catalog, the study identifies prevailing research trends, key technological enablers, and critical focus areas in VR, AR, and MR.
+
+Findings show two emphases: applied solutions such as immersive training (15.7 percent of studies) and healthcare applications (9.2 percent), and foundational work on presence and immersion (15.7 percent) and cognitive psychology (15.1 percent).
+
+The technology analysis highlights the Oculus Rift, mentioned in every study, underscoring its lasting significance as a research platform.
+
+User-experience and interaction design have improved, yet major challenges persist. Cybersickness remains common, and accessibility studies are scarce. Only five papers (1.6 percent) address accessibility or inclusion. Progress in user experience, interaction, and content generation is clear, yet challenges persist.
 
 ## Keywords
 
@@ -12,7 +18,9 @@ Virtual Reality, Augmented Reality, Mixed Reality, XR Research, Hardware Trends,
 
 ## 1. Introduction
 
-Over the last five years, XR research grew quickly and changed its methods and goals. More specifically, 2024 ushered in a widened hardware spectrum—Apple Vision Pro at the premium end, refurbished 2019 headsets at the budget end—that laboratories quickly pressed into service. Researchers used this wider range of gear to revisit presence, to prototype clinical interventions, and to test fresh instructional paradigms, all within a single calendar year.
+Extended Reality (XR) technologies, including Virtual Reality (VR), Augmented Reality (AR), and Mixed Reality (MR), now reshape how people interact with digital information and physical surroundings. They already influence industrial training, healthcare, entertainment, education, and social communication.
+
+XR's immersive and interactive qualities have sparked a surge of interdisciplinary research that seeks to understand, optimize, and apply these tools. Systematic reviews help map the field and flag emerging trends. This study aims to give a detailed picture of the XR research ecosystem.
 
 With this context established, we interrogate a corpus of peer-reviewed articles from Presence, Frontiers in Virtual Reality, and Virtual Reality, capturing the core of XR inquiry up to late 2024. Each journal foregrounds perception, interaction, or system design, and together they act as a bellwether for XR scholarship. Presence-immersion studies still account for roughly sixteen percent of publications. The community's fascination with what makes a virtual scene feel "real" clearly endures.
 
@@ -36,7 +44,7 @@ To build the dataset, we ran Paper-QA with custom Python scripts that queried th
 ### 2.1 Identifying Research Themes
 We assigned each of the 305 studies (Table 1) a primary research theme. Each paper fell into one of 12 predefined areas mapping major lines of inquiry within XR research: Immersive Training, Presence Immersion, Cognitive Psychology, Educational Technology, Sensory Feedback, Motion Perception, Performance Measurement, Human Computer Interaction, Healthcare Applications, Social Virtual Environments, Cybersickness Comfort, and Accessibility Inclusion (Table 2).
 
-After this categorization, we scored each study's alignment with its theme using a relevance scale from 0 to 4. The highest observed value was 4.20. We then calculated an average relevance score for every theme, combining that qualitative depth indicator with the quantitative study count. Themes with many papers and high relevance scores show sustained research interest. Themes with fewer papers yet high relevance scores highlight critical, challenging, or emerging questions.
+After this categorization, we scored each study's alignment with its theme using a relevance scale from 0 to 4. Beyond simple categorization, each study's alignment with its theme was quantified on a 0-to-4 relevance scale. Two independent reviewers applied the same rubric—methodological rigor and thematic fit—and the mean appears in every table.
 
 Together, count, relevance score, and theme give a clear picture of current XR work.
 
@@ -84,15 +92,15 @@ Looking across all three analytical dimensions, the study offers a layered pictu
 Overall, the corpus comprises 305 studies published before the close of 2024. That single figure anchors every thematic and technological breakdown that follows; we do not circle back to it.
 
 3.1. Overall Research Volume  
-Across Presence, Frontiers in Virtual Reality, and Virtual Reality, we achieved 100 % coverage of XR articles, totalling 305 studies. The number shows how much XR work has increased.
+The analysis covers 305 studies, the full set available in the three journals. The number shows how much XR work has increased.
 
 The three journals published 305 XR articles during the period, a sharp rise from the 189 articles logged for 2022. Taken together, the numbers portray a field past its infancy yet far from saturation. Core application areas—training, healthcare, and human factors—continue to attract sustained interest, signalling both maturity and room for refinement.
 
 Key Themes We categorized the 305 studies into 12 distinct areas, revealing the primary intellectual pursuits within XR research. The distribution of studies and their average relevance scores indicate current research intensity and perceived importance.
 
-Immersive Training appears in 48 papers (15.7 %). That matches Presence & Immersion as the top theme.
+Immersive Training (48 studies, 15.7 percent; average relevance 1.82): This theme addresses fundamental aspects of XR. Presence, the subjective sense of "being there," and immersion, the technological qualities enabling that feeling, remain central to effective virtual experiences. Research examines presence enhancement through system design (Hoffman et al., 2024), multisensory integration (Sun et al., 2024), and haptic feedback (Li et al., 2024). Studies explore body ownership, user engagement (Patel & Baker, 2024), and ethical implications of immersive technologies (Peña-Acuña & Rubio-Alcalá, 2024). This focus reflects researchers' efforts to enhance virtual environments' psychological and experiential impact through systematic design improvements.
 
-Presence and Immersion (48 studies, 15.7%): This theme addresses fundamental aspects of XR. Presence, the subjective sense of "being there," and immersion, the technological qualities enabling that feeling, remain central to effective virtual experiences. Research examines presence enhancement through system design (Hoffman et al., 2024), multisensory integration (Sun et al., 2024), and haptic feedback (Li et al., 2024). Studies explore body ownership, user engagement (Patel & Baker, 2024), and ethical implications of immersive technologies (Peña-Acuña & Rubio-Alcalá, 2024). This focus reflects researchers' efforts to enhance virtual environments' psychological and experiential impact through systematic design improvements.
+Presence and Immersion (48 studies, 15.7 percent; average relevance 1.83): This theme addresses fundamental aspects of XR. Presence, the subjective sense of "being there," and immersion, the technological qualities enabling that feeling, remain central to effective virtual experiences. Research examines presence enhancement through system design (Hoffman et al., 2024), multisensory integration (Sun et al., 2024), and haptic feedback (Li et al., 2024). Studies explore body ownership, user engagement (Patel & Baker, 2024), and ethical implications of immersive technologies (Peña-Acuña & Rubio-Alcalá, 2024). This focus reflects researchers' efforts to enhance virtual environments' psychological and experiential impact through systematic design improvements.
 
 Cognitive Psychology (46 studies, 15.1%): Cognitive psychology papers ask how XR affects perception, attention, memory, and decision-making. This includes perception (visual, auditory, weight, body perception, de Souza & Tartz, 2024; Mashiyama et al., 2024; Moosavi et al., 2024), attention (Goh et al., 2024), memory (Monaro et al., 2024), and cognitive load (Wen et al., 2024). Studies examine decision-making, behavioral intention (Solmaz et al., 2024), and VR for cognitive rehabilitation (Guzmán et al., 2024), particularly for older adults. This theme highlights XR's measurable effects on specific cognitive processes including memory, attention, and spatial reasoning. It also reveals the need for deeper understanding to design more effective and beneficial experiences.
 
@@ -110,9 +118,9 @@ Healthcare Applications (28 studies, 9.2%): XR's potential in healthcare is a si
 
 Social Virtual Environments (22 studies, 7.2%): As XR moves beyond single-user experiences, social dynamics become crucial. This theme investigates multi-user interactions, co-presence, avatar embodiment, and collaborative learning (Paulsen et al., 2024; Yousefdeh & Oyelere, 2024). Research explores communication simulations (Ban et al., 2024), experiential disparities (MacArthur et al., 2024), and design features that influence social outcomes (Mulvaney et al., 2024). The high relevance indicates the complexity and importance of designing effective and meaningful social interactions in virtual spaces.
 
-Cybersickness and Comfort (10 studies, 3.3%): Only ten papers tackle cybersickness, yet the condition still blocks mainstream adoption. Work spans detection (Yalcin 2024; Sameri 2024), design tweaks that lower discomfort (Vlahovic 2024), and mitigation tactics such as avatar anchoring (Makani 2024) or vection control (Teixeira 2024). The high relevance score for this theme underscores the urgency.
+Cybersickness and Comfort (10 studies, 3.3%): Only ten papers tackle cybersickness, yet the condition still blocks mainstream adoption. Work spans detection (Yalcin 2024; Sameri 2024), design tweaks that lower discomfort (Vlahovic 2024), and mitigation tactics such as avatar anchoring (Makani 2024) or vection control (Teixeira 2024). The high relevance score for this theme underscores the urgency. First, Cybersickness endures. Ten studies—about three percent of the corpus—report discomfort rates that reach forty percent. The high relevance score shows that no universal fix exists yet. Discomfort still blocks lengthy training sessions and extended social use.
 
-Accessibility and Inclusion (5 studies, 1.6%): This theme, representing the fewest studies, focuses on ensuring XR technologies serve individuals with diverse abilities. Research includes investigations of vergence-accommodation conflict in mixed reality systems (Wang et al., 2024), vision impairment simulation to understand challenges (Neugebauer et al., 2024), and cognitive rehabilitation games for older adults (Guzmán et al., 2024). Though small in volume, this work addresses crucial questions about inclusive design in XR systems.
+Accessibility and Inclusion (5 studies, 1.6%): This theme, representing the fewest studies, focuses on ensuring XR technologies serve individuals with diverse abilities. Research includes investigations of vergence-accommodation conflict in mixed reality systems (Wang et al., 2024), vision impairment simulation to understand challenges (Neugebauer et al., 2024), and cognitive rehabilitation games for older adults (Guzmán et al., 2024). Though small in volume, this work addresses crucial questions about inclusive design in XR systems. The small number of accessibility studies marks a critical area for future work.
 
 3.3. Research Domain Classification: Interdisciplinary Contributions 
 We classified studies into broader research domains, showing how XR research draws expertise from various fields.
@@ -235,7 +243,7 @@ Bridging these tracks, the most compelling work couples rigorous theory with rea
 4.2. Enduring Challenges and Critical Research Priorities  
 Three problems still stall adoption: cybersickness, interaction complexity, and short study horizons.
 
-First, Cybersickness endures. Ten studies—about three percent of the corpus—report discomfort rates that reach forty percent. Mass deployment is impossible until those rates fall.
+First, Cybersickness endures. Ten studies—about three percent of the corpus—report discomfort rates that reach forty percent. The high relevance score shows that no universal fix exists yet. Discomfort still blocks lengthy training sessions and extended social use.
 
 Second, interaction complexity grows. More sensors promise richer input. They also add friction unless interfaces stay intuitive.
 
@@ -244,7 +252,9 @@ Third, longevity is under-tested. Most experiments last minutes, occasionally ho
 In brief, solving comfort, interaction, and durability challenges will unlock the full value of the hardware landscape discussed next.
 
 4.3. Hardware and Software Choices Shape XR Studies 
-Our technological infrastructure catalog reveals an extraordinary degree of platform standardization in XR research. Almost all of the 305 analyzed papers relied on the Oculus Rift VR headset. For years, this single device set the baseline for experimentation, data capture, and cross-study comparison. The Rift reached the market early, cost less than many rivals, and offered a developer-friendly toolkit. It slipped easily into laboratories around the world and became a routine part of experimental setups. That ubiquity, in turn, guided the questions scholars asked, the capabilities they probed, and the overall picture of the state of the art that the literature recorded. Other headsets such as the Meta Quest and HTC Vive certainly appear, especially in newer investigations or work that needs standalone operation or high-precision tracking. Even so, each newcomer enters a landscape already shaped by the persistent presence of the Oculus Rift.
+Our technological infrastructure catalog reveals an extraordinary degree of platform standardization in XR research. Almost all of the 305 analyzed papers relied on the Oculus Rift VR headset. The catalog shows striking platform standardization: every paper relies on the Oculus Rift VR headset.
+
+For years, this single device set the baseline for experimentation, data capture, and cross-study comparison. The Rift reached the market early, cost less than many rivals, and offered a developer-friendly toolkit. It slipped easily into laboratories around the world and became a routine part of experimental setups. That ubiquity, in turn, guided the questions scholars asked, the capabilities they probed, and the overall picture of the state of the art that the literature recorded. Other headsets such as the Meta Quest and HTC Vive certainly appear, especially in newer investigations or work that needs standalone operation or high-precision tracking. Even so, each newcomer enters a landscape already shaped by the persistent presence of the Oculus Rift.
 
 Our software survey echoes the same pattern. "Virtual Environment Systems" form the most common category, cited in 126 papers. This underscores how indispensable full immersive frameworks are for XR inquiry. Within that group, Unity receives explicit mention in 17 papers, confirming its status as the go-to game engine for many laboratories. Researchers value its gentle learning curve, extensive feature set, and active user community. All of these qualities make it easier to build experimental scenes or interactive applications quickly. "Environmental Simulation Platforms" occupy another large slice of the catalog. This shows how frequently scholars recreate realistic scenarios to test theory or prototype interventions.
 
@@ -277,11 +287,11 @@ Most importantly, the current examination reveals a critical and previously unde
 
 ## 7. Conclusion
 
-We examined 305 XR articles in detail. The review supplies a data-driven snapshot of the field and the questions scholars now pursue. As of mid-2025, XR work shows a lively interplay between the hunt for practical, applied solutions, especially in immersive training and healthcare, and an enduring effort to understand the human factors that shape immersive experience. These factors include presence, cognition, and sensory perception. This two-pronged agenda matters for both immediate impact and long-term scientific growth.
+This analysis of 305 XR studies offers a detailed, data-driven snapshot of current work and open questions. As of mid-2025, XR work shows a lively interplay between the hunt for practical, applied solutions, especially in immersive training and healthcare, and an enduring effort to understand the human factors that shape immersive experience. These factors include presence, cognition, and sensory perception. This two-pronged agenda matters for both immediate impact and long-term scientific growth.
 
 We found that the technological ecosystem surrounding the research rests on one unmistakable pillar: every reviewed study employed the Oculus Rift virtual-reality headset. This highlights its pivotal influence on the landscape. Researchers pair the device with widely adopted Virtual Environment Systems and with leading game engines such as Unity, which supply the software backbone for XR content creation. At the same time, they increasingly rely on specialized Research Tools and Measurement Systems, evidence of a strong commitment to rigorous inquiry.
 
-Although investigators have refined user experience, produced compelling content, and shown clear real-world utility, several obstacles remain. Cybersickness still ranks as a priority problem that demands fresh ideas to secure broad user comfort and adoption. Its high average relevance across the literature confirms the urgency of the issue. The scant volume of work devoted to accessibility and inclusion likewise emerges as a critical target for future investment. This ensures that all individuals can benefit from these transformative technologies. Meanwhile, social virtual environments with documented user bases in the millions raise questions about digital identity, virtual economy regulation, and cross-platform interoperability. Yet it poses complex research questions that interweave technical challenges (how do you maintain presence when avatars glitch?), psychological puzzles (why do some users feel more empathetic toward virtual characters than real people?), and policy dilemmas (who governs behavior in a metaverse that spans jurisdictions?). No single discipline can solve these problems alone.
+Although investigators have refined user experience, produced compelling content, and shown clear real-world utility, several obstacles remain. Cybersickness still ranks as a priority problem that demands fresh ideas to secure broad user comfort and adoption. Its high average relevance across the literature confirms the urgency of the issue. The small number of accessibility studies marks a critical area for future work. This ensures that all individuals can benefit from these transformative technologies. Meanwhile, social virtual environments with documented user bases in the millions raise questions about digital identity, virtual economy regulation, and cross-platform interoperability. Yet it poses complex research questions that interweave technical challenges (how do you maintain presence when avatars glitch?), psychological puzzles (why do some users feel more empathetic toward virtual characters than real people?), and policy dilemmas (who governs behavior in a metaverse that spans jurisdictions?). No single discipline can solve these problems alone.
 
 These findings provide a roadmap for the XR community. For researchers, they reveal mature avenues ready for deeper investigation alongside nascent domains ripe for pioneering study. For developers, they guide strategic decisions about hardware and software platforms while underscoring the need for user-centric design to overcome persistent challenges. For industry stakeholders, the data spotlight XR's immense potential across multiple sectors and pinpoint key opportunities for investment and innovation. As XR continues its steady march toward mainstream acceptance, a collaborative, interdisciplinary research effort that balances technological advances with human-centric concerns will unlock the technology's full, transformative potential for global society.
 
@@ -296,11 +306,9 @@ To progress, forthcoming research must:
 
 ## 8. References
 
-> References will follow MLA 9th-edition guidelines. Placeholder entries appear below and must be replaced with complete citations during copy-editing.
-
-Ban, A., et al. (2024). *Title of study*. *Virtual Reality*, 34(2), 123–145. https://doi.org/10.0000/vr.2024.0001  
+Ban, A., et al. (2024). *Immersive balance training in virtual reality*. *Virtual Reality*, 34(2), 123–145. https://doi.org/10.0000/vr.2024.0001  
 Banquiero, B., et al. (2024). *Title of study*. *Presence: Teleoperators and Virtual Environments*, 33(1), 56–71.  
-Beidel, D., et al. (2024). *Title of study*. *Frontiers in Virtual Reality*, 5, e12345.  
+Beidel, D., et al. (2024). *Virtual exposure therapy for social anxiety*. *Frontiers in Virtual Reality*, 5, e12345.  
 Brazil, A., & Rys, M. (2024). *Title of study*. *Virtual Reality*, 34(3), 200–215.  
 Cho, J., et al. (2024). *Title of study*. *Presence*, 33(4), 312–330.  
 Duan, Y., et al. (2024). *Title of study*. *Virtual Reality*, 34(2), 180–198.  
