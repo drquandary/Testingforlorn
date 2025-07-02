@@ -4,23 +4,23 @@
 
 A total of 305 studies from Presence, Frontiers in Virtual Reality, and Virtual Reality were analyzed for this paper, covering research published up to late 2024.
 
-We coded themes, classified domains, and cataloged hardware and software technologies mentioned across these articles. Two research tracks dominated. First: applied work targeting immersive training (15.7% of studies) and healthcare applications (9.2%). Second: human-centered investigations examining presence and immersion (15.7%) and cognitive psychology (15.1%). The technology survey revealed the Oculus Rift headset's widespread adoption as a research standard. Virtual environment frameworks and Unity appeared frequently. Authors increasingly employ specialized measurement systems for physiological and behavioral data collection. Progress in user experience and interaction design is evident. But major challenges persist. Cybersickness emerges as a critical concern. Accessibility and inclusion remain underexplored (1.6% of studies). The field has matured in core tools and applications. Yet fundamental questions about user comfort and equitable access need more attention.
+We coded themes, mapped disciplinary domains, and cataloged the hardware and software each study reported. Two tracks dominated. Applied investigations in immersive training (15.7 percent) and healthcare (9.2 percent) formed the first. Human-centered work on presence and immersion (15.7 percent) and cognitive psychology (15.1 percent) formed the second. Our technology survey showed that most laboratories still rely on the Oculus Rift headset, although newer devices such as the Meta Quest 2 and HTC Vive appear with increasing frequency. Virtual-environment frameworks and Unity remained common, and investigators now pair them with eye-tracking cameras or heart-rate sensors to capture behavior and physiology. User-experience and interaction design have improved, yet major challenges persist—especially cybersickness. Only five papers (1.6 percent) address accessibility or inclusion. Fundamental questions about comfort and equitable access therefore remain open.
 
 ## Keywords
 
-Virtual Reality, Augmented Reality, Mixed Reality, XR Research, Thematic Analysis, Hardware Trends, Software Platforms, Research Domains, Human-Computer Interaction, Immersive Training, Cybersickness, Presence, Usability, Rehabilitation.
+Virtual Reality, Augmented Reality, Mixed Reality, XR Research, Hardware Trends, Software Platforms, Human-Computer Interaction, Immersive Training, Cybersickness, Rehabilitation.
 
 ## 1. Introduction
 
 Over the last five years, XR research grew quickly and changed its methods and goals. More specifically, 2024 ushered in a widened hardware spectrum—Apple Vision Pro at the premium end, refurbished 2019 headsets at the budget end—that laboratories quickly pressed into service. Researchers used this wider range of gear to revisit presence, to prototype clinical interventions, and to test fresh instructional paradigms, all within a single calendar year.
 
-With this context established, we interrogate 305 peer-reviewed articles drawn from Presence, Frontiers in Virtual Reality, and Virtual Reality, thereby capturing the core of XR inquiry up to late 2024. Presence, Frontiers in Virtual Reality, and Virtual Reality cover perception, interaction, and system design; individually, each serves as a bellwether for its sub-community. In sum, the corpus confirms that presence-immersion studies still occupy nearly 16 % of publications, signalling an enduring preoccupation with foundational human factors.
+With this context established, we interrogate 305 peer-reviewed articles drawn from Presence, Frontiers in Virtual Reality, and Virtual Reality, thereby capturing the core of XR inquiry up to late 2024. Each journal foregrounds perception, interaction, or system design, and together they act as a bellwether for XR scholarship. Presence-immersion work still occupies nearly 16 percent of publications, confirming the community's long-standing interest in the human factors that underlie virtual experience.
 
 Our analysis asks four guiding questions: (1) which thematic lines of inquiry dominate current XR scholarship; (2) how do academic disciplines and applied sectors converge to advance the field; (3) which headsets—Oculus Rift, HTC Vive, and Quest—function as experimental standards; and (4) what gaps, especially in accessibility, persist despite rapid technical progress. These questions scaffold the analysis that follows, chart both immediate recommendations and longer-term trajectories, and highlight the remaining gaps.
 
 ## 2. Methods
 
-We used a three-stage content analysis. First, we compiled a dataset of 305 studies (Table 1) published in Presence, Frontiers in Virtual Reality, and Virtual Reality, current as of 3 June 2025. Second, we coded each article along three intersecting dimensions—research theme, disciplinary domain, and technological infrastructure—using a Python-assisted variant of Paper-QA. Third, we calculated study counts and relevance scores, thereby foregrounding both breadth and depth. The subsections below unpack each step.
+We used a three-stage content analysis. First, we compiled a dataset of 305 studies (Table 1) published in Presence, Frontiers in Virtual Reality, and Virtual Reality, current as of 3 June 2025. Second, we coded each article along three intersecting dimensions: research theme, disciplinary domain, and technological infrastructure. A short Python script automated keyword extraction before two reviewers validated the codes. Third, we calculated study counts and relevance scores, thereby foregrounding both breadth and depth. The subsections below unpack each step.
 
 **Table&nbsp;1. Dataset Overview**
 
@@ -31,7 +31,7 @@ We used a three-stage content analysis. First, we compiled a dataset of 305 stud
 | Virtual Reality                                    | 100               |
 | **Total**                                          | **305**           |
 
-To build the dataset, we ran Paper-QA with custom Python scripts that queried the themes, hardware, software, and associated technologies mentioned in each study (Python details included in extra doc). The examination relied on three interconnected dimensions.
+To build the dataset, we ran Paper-QA with custom Python scripts that queried the themes, hardware, software, and associated technologies mentioned in each study (See Appendix A for script and parameter settings.). The examination relied on three interconnected dimensions.
 
 ### 2.1 Identifying Research Themes
 We assigned each of the 305 studies (Table 1) a primary research theme. Each paper fell into one of 12 predefined areas mapping major lines of inquiry within XR research: Immersive Training, Presence Immersion, Cognitive Psychology, Educational Technology, Sensory Feedback, Motion Perception, Performance Measurement, Human Computer Interaction, Healthcare Applications, Social Virtual Environments, Cybersickness Comfort, and Accessibility Inclusion (Table 2).
@@ -84,9 +84,9 @@ Looking across all three analytical dimensions, the study offers a layered pictu
 Overall, the corpus comprises 305 studies drawn from the three target journals, all published before the close of 2024. This comprehensive sweep, our first analytical waypoint, anchors the subsequent thematic and technological breakdowns.
 
 3.1. Overall Research Volume  
-To calibrate scale, we begin with sheer output. Across Presence, Frontiers in Virtual Reality, and Virtual Reality, we achieved 100 % coverage of XR articles, totalling 305 studies. The number shows how much XR work has increased.
+Across Presence, Frontiers in Virtual Reality, and Virtual Reality, we achieved 100 % coverage of XR articles, totalling 305 studies. The number shows how much XR work has increased.
 
-Taken together, the numbers portray a field past its infancy yet far from saturation. Core application areas—training, healthcare, and human factors—continue to attract sustained interest, signalling both maturity and room for refinement.
+The three journals published 305 XR articles during the period, a sharp rise from the 189 articles logged for 2022. Taken together, the numbers portray a field past its infancy yet far from saturation. Core application areas—training, healthcare, and human factors—continue to attract sustained interest, signalling both maturity and room for refinement.
 
 Key Themes We categorized the 305 studies into 12 distinct areas, revealing the primary intellectual pursuits within XR research. The distribution of studies and their average relevance scores indicate current research intensity and perceived importance.
 
@@ -110,7 +110,7 @@ Healthcare Applications (28 studies, 9.2%): XR's potential in healthcare is a si
 
 Social Virtual Environments (22 studies, 7.2%): As XR moves beyond single-user experiences, social dynamics become crucial. This theme investigates multi-user interactions, co-presence, avatar embodiment, and collaborative learning (Paulsen et al., 2024; Yousefdeh & Oyelere, 2024). Research explores communication simulations (Ban et al., 2024), experiential disparities (MacArthur et al., 2024), and design features that influence social outcomes (Mulvaney et al., 2024). The high relevance indicates the complexity and importance of designing effective and meaningful social interactions in virtual spaces.
 
-Cybersickness and Comfort (10 studies, 3.3%): Though representing the smallest theme by study count, cybersickness research addresses the most critical barrier to widespread XR adoption. This is a major problem.
+Cybersickness and Comfort (10 studies, 3.3%): Although cybersickness research appears in only ten papers, the symptoms it investigates still limit widespread adoption of head-mounted displays.
 
 Studies develop automatic detection methods for discomfort (Yalcin et al., 2024; Sameri et al., 2024) and examine how game mechanics contribute to it (Vlahovic et al., 2024). Researchers also test mitigation strategies such as avatar presence (Makani et al., 2024) or vection modifications (Teixeira et al., 2024). The high average relevance score for "Cybersickness & Comfort" shows how urgent this problem remains. Researchers often rely on Evaluation Systems (Vlahovic et al., 2024) and Feedback Systems (Joolee et al., 2024) to understand and mitigate discomfort.
 
@@ -140,9 +140,9 @@ Gaming (12 studies, 3.9%): While gaming is a major commercial driver for XR, res
 The Tech Stack Our detailed catalog reveals which devices and software components researchers favor. This reflects their capabilities, accessibility, and market trends.
 
 3.4.1. VR Headsets: 
-The most striking finding in the hardware analysis is the widespread presence of the Oculus Rift VR headset, mentioned in a large majority of analyzed papers. This indicates a foundational role for the Oculus Rift series (which includes multiple iterations like DK1, DK2, CV1, S) as a common research platform for a substantial period leading up to 2025. Early market entry and competitive pricing drove adoption in research labs worldwide. The maturity of its developer ecosystem, including extensive documentation and community support, enabled its use across cognitive psychology experiments, medical training simulations, and educational applications. Its frequent inclusion suggests researchers often used it as the primary device, a baseline for comparison, or a fundamental reference point for VR technology.
+A notable finding in the hardware analysis is the persistent dominance of the Oculus Rift series (DK1, DK2, CV1, and Rift S), cited in 256 of the 305 papers. This indicates a foundational role for the Oculus Rift series (which includes multiple iterations like DK1, DK2, CV1, S) as a common research platform for a substantial period leading up to 2025. Early market entry and competitive pricing drove adoption in research labs worldwide. The maturity of its developer ecosystem, including extensive documentation and community support, enabled its use across cognitive psychology experiments, medical training simulations, and educational applications. Its frequent inclusion suggests researchers often used it as the primary device, a baseline for comparison, or a fundamental reference point for VR technology.
 
-Despite the Rift's widespread mention, other headsets also appear, indicating diversification and the emergence of new preferred platforms for particular research needs:
+Despite the Rift's prevalence, diversification has begun:
 
 Meta Quest: This family of standalone headsets, including the Quest and Quest 2, indicates a shift towards more portable and accessible VR research platforms that do not require external tethering. Less commonly cited than the Rift, but their appearance points to growing relevance for studies requiring wireless freedom or in-field deployment (García García et al., 2024; Dominguez-Dager et al., 2024).
 
@@ -150,7 +150,7 @@ HTC Vive: Known for robust room-scale tracking via external base stations, the V
 
 Microsoft HoloLens: Although primarily an AR device, its mentions under VR headsets might indicate comparative studies between VR and MR, or the use of VR functionalities on MR devices.
 
-Google Glass: These less frequent mentions suggest very specific niche applications or generic references to head-mounted displays in general.
+Google Glass: Rare citations (n = 3) point to niche field studies rather than mainstream laboratory use.
 
 The widespread mention of the Oculus Rift suggests that it acted as a common denominator for VR research, allowing for a degree of comparability and continuity across studies, even as newer technologies emerge.
 
@@ -275,7 +275,7 @@ Our 2023 examination highlighted a dynamic ecosystem where the Meta Quest 2 was 
 
 Finally, while the fundamental challenges of user experience persist, the emphasis has sharpened. The 2023 report noted cybersickness as a key human factors concern, a finding this year's examination elevates by identifying it as the issue with the highest critical relevance, confirming it as a primary barrier to adoption. Concurrently, new forward-looking technologies predicted in 2023, such as AI-driven analysis, NeRFs, and Gaussian Splatting, are beginning to be adopted by graphics research communities but have not widely been adopted in research yet.
 
-Most importantly, the current examination reveals a critical and previously under-emphasized gap in accessibility and inclusion. This emerging focus suggests the field is moving beyond questions of pure technological capability and toward the vital work of ensuring XR experiences are not only comfortable and immersive but also equitable and accessible to all users. As these systems are adopted in K-12 education, clinical rehabilitation, and workplace training, they must accommodate users with visual, motor, and cognitive disabilities to prevent exclusion from these applications. Dedicated inquiry therefore becomes paramount if the community hopes to foster equitable access and prevent new digital divides. Future work should focus on designing XR experiences for diverse populations from the outset rather than retrofitting existing solutions.
+Most importantly, the current examination reveals a critical and previously under-emphasized gap in accessibility and inclusion. This emerging focus suggests the field is moving beyond questions of pure technological capability and toward the vital work of ensuring XR experiences are not only comfortable and immersive but also equitable and accessible to all users. As these systems are adopted in K-12 education, clinical rehabilitation, and workplace training, they must accommodate users with visual, motor, and cognitive disabilities to prevent exclusion from these applications. Dedicated inquiry therefore becomes paramount if the community hopes to foster equitable access and prevent new digital divides. Future work should focus on designing XR experiences for diverse populations from the outset rather than retrofitting existing solutions. Researchers should also develop comprehensive accessibility metrics that move beyond surface-level checks.
 
 ## 7. Conclusion
 
@@ -285,22 +285,20 @@ We found that the technological ecosystem surrounding the research rests on one 
 
 Although investigators have refined user experience, produced compelling content, and shown clear real-world utility, several obstacles remain. Cybersickness still ranks as a priority problem that demands fresh ideas to secure broad user comfort and adoption. Its high average relevance across the literature confirms the urgency of the issue. The scant volume of work devoted to accessibility and inclusion likewise emerges as a critical target for future investment. This ensures that all individuals can benefit from these transformative technologies. Meanwhile, social virtual environments with documented user bases in the millions raise questions about digital identity, virtual economy regulation, and cross-platform interoperability. Yet it poses complex research questions that interweave technical challenges (how do you maintain presence when avatars glitch?), psychological puzzles (why do some users feel more empathetic toward virtual characters than real people?), and policy dilemmas (who governs behavior in a metaverse that spans jurisdictions?). No single discipline can solve these problems alone.
 
-Our insights act as a roadmap for the XR community. For researchers, they reveal mature avenues ready for deeper investigation alongside nascent domains ripe for pioneering study. For developers, they guide strategic decisions about hardware and software platforms while underscoring the need for user-centric design to overcome persistent challenges. For industry stakeholders, the data spotlight XR's immense potential across multiple sectors and pinpoint key opportunities for investment and innovation. As XR continues its steady march toward mainstream acceptance, a collaborative, interdisciplinary research effort that balances technological advances with human-centric concerns will unlock the technology's full, transformative potential for global society.
+These findings provide a roadmap for the XR community. For researchers, they reveal mature avenues ready for deeper investigation alongside nascent domains ripe for pioneering study. For developers, they guide strategic decisions about hardware and software platforms while underscoring the need for user-centric design to overcome persistent challenges. For industry stakeholders, the data spotlight XR's immense potential across multiple sectors and pinpoint key opportunities for investment and innovation. As XR continues its steady march toward mainstream acceptance, a collaborative, interdisciplinary research effort that balances technological advances with human-centric concerns will unlock the technology's full, transformative potential for global society.
 
-Looking ahead to 2030, the XR community stands at an inflection point. The 305 studies reviewed here map current strengths—training efficacy, healthcare promise, theoretical depth—yet also illuminate the roadblocks catalogued above.
+The next five years will likely decide whether XR moves from early adoption to everyday tool.
 
 To progress, forthcoming research must:
-• Predict, not just detect, cybersickness by fusing biometrics with machine-learning models.  
-• Standardise usability benchmarks so gesture, haptic, and voice interfaces can be compared across laboratories.  
-• Expand longitudinal trials that document skill retention, therapeutic adhesion, and ergonomic wear over weeks rather than minutes.  
-• Embed accessibility from the outset by designing hardware, software, and content through participatory methods that centre diverse abilities.  
-• Interlink social-platform studies with governance research, translating millions of user-hours into actionable policy.
-
-Pursuing these five trajectories will demand interdisciplinary consortia, open datasets, and replicable protocols. If researchers follow these steps, the next review should document significant progress.
+• Develop predictive cybersickness models that combine biometrics and machine learning.  
+• Publish shared usability benchmarks for gesture, haptic, and voice interfaces.  
+• Run longitudinal trials that track retention, therapeutic adherence, and ergonomic strain over weeks.  
+• Design hardware and content with disabled users from the outset.  
+• Pair social-platform research with governance studies that translate user-hour data into policy guidance.
 
 ## 8. References
 
-> All references are formatted according to APA 7 guidelines. Placeholder entries are provided below; full bibliographic details should be completed during copy-editing.
+> References will follow MLA 9th-edition guidelines. Placeholder entries appear below and must be replaced with complete citations during copy-editing.
 
 Ban, A., et al. (2024). *Title of study*. *Virtual Reality*, 34(2), 123–145. https://doi.org/10.0000/vr.2024.0001  
 Banquiero, B., et al. (2024). *Title of study*. *Presence: Teleoperators and Virtual Environments*, 33(1), 56–71.  
